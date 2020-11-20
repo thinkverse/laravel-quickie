@@ -8,6 +8,6 @@ class ProductController extends Controller
 {
     public function show(Request $request, string $product)
     {
-        //
+        dd($product, $request);
     }
 }
