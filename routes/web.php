@@ -2,6 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-use App\Http\Controllers\ProductController;
+use App\Http\Controllers\WelcomeController;
 
-Route::get('/', [ProductController::class, 'index']);
+Route::get('/', WelcomeController::class);
